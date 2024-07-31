@@ -16,7 +16,7 @@ const Hero = () => {
                     experience.
                 </h1>
             </div>
-            <div className='pt-6'>
+            <div className='py-6'>
                 <a href="#" className='text-md px-12 py-4 font-otterco bg-myBlack text-myWhite rounded-full' >Resume</a>
             </div>
         </div>

@@ -7,11 +7,11 @@ const Contact = () => {
                 <img src="/images/handshake.svg" alt="handshake" width={150}
                     className='rounded-full bg-myBg p-4' />
             </div>
-            <h1 className='text-gradient text-4xl md:text-5xl text-center font-semibold tracking-tight'>
+            <h1 className='text-myBlack text-4xl md:text-5xl text-center font-semibold '>
                 Feel free to contact me <br />
                 about your project
             </h1>
-            <div className='pt-6 flex w-full items-center justify-center gap-3'>
+            <div className='pt-6 flex w-full items-center justify-center gap'>
                 <a href="#" className='text-md px-12 py-4 font-otterco bg-myBlack text-myWhite rounded-full border-myBg border-2 shadow-lg' >Resume</a>
                 <a href="#" className='text-md px-12 py-4 font-otterco bg-myWhite text-myBlack rounded-full border-myBg border-2 shadow-lg' >Resume</a>
             </div>
