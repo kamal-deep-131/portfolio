@@ -25,7 +25,7 @@ const Navbar = () => {
     }, []);
 
     return (
-        <nav className="fixed w-full bg-myBg text-myBlack shadow-md font-otterco">
+        <nav className=" w-full bg-myBg text-myBlack shadow-md font-otterco">
             <div className="container mx-auto flex justify-between items-center p-4">
                 <a href="#" className="text-xl font-bold text-myBlack z-10">Logo</a>
                 <div className="md:hidden z-10" onClick={toggleMenu}>

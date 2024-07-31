@@ -15,6 +15,17 @@ export default {
       fontFamily: {
         otterco: ['OttercoDisplay', 'sans-serif'],
       },
+      keyframes: {
+        slideIn: {
+          '0%': { transform: 'translateY(-30%)', rotate: "-6deg" },
+          '50%': { transform: 'translateY(30%)', rotate: "-6deg" },
+          '100%': { transform: 'translateY(-30%)', rotate: "-6deg" },
+        },
+      },
+      animation: {
+        slideIn: 'slideIn 6s infinite',
+
+      },
     },
   },
   plugins: [],

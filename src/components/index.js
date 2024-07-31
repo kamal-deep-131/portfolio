@@ -1,3 +1,6 @@
 import Navbar from "./Navbar";
+import HeroSection from "./Hero";
 
-export { Navbar }
+export {
+    Navbar, HeroSection
+}
