@@ -5,7 +5,17 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    colors: {
+      myBg: "#f6f5f4",
+      myWhite: "#fffffe",
+      myBlack: "#242424",
+    },
+    extend: {
+
+      fontFamily: {
+        otterco: ['OttercoDisplay', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }

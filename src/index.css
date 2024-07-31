@@ -1,3 +1,31 @@
+@font-face {
+  font-family: "OttercoDisplay";
+  src: url("/fonts/OttercoDisplay-LightItalic.otf") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "OttercoDisplay";
+  src: url("/fonts/OttercoDisplay-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OttercoDisplay";
+  src: url("/fonts/OttercoDisplay-SemiBold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OttercoDisplay";
+  src: url("/fonts/OttercoDisplay-Thin.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
