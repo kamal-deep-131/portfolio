@@ -10,7 +10,7 @@ const ProjectCard = ({ project }) => {
             <div className="p-6">
                 <h2 className="text-xl font-bold mb-2 font-otterco">{name}</h2>
                 <p className="text-gray-700 mb-4 font-otterco">{description}</p>
-                <div className="flex w-full items-center justify-start gap-3">
+                <div className="flex w-full items-center justify-start gap-3 flex-wrap">
                     <a
                         href={demoLink}
                         className="text-md px-12 py-4 font-otterco bg-myBlack text-myWhite rounded-full border-myBg border-[1px] ">
