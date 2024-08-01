@@ -12,9 +12,7 @@ const Hero = () => {
             </div>
             <div>
                 <h1 className='text-gradient text-4xl md:text-5xl text-center font-semibold tracking-tight'>
-                    Building digital <br />
-                    products, brands, and <br />
-                    experience.
+                    Web Development <br /> From Concept to <br /> Deployment
                 </h1>
             </div>
             <div className='py-6'>
