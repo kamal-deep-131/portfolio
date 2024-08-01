@@ -16,27 +16,30 @@ const Contact = () => {
                 about your project
             </h1>
             <div className='pt-6 flex w-full items-center justify-center gap-4 flex-wrap'>
-                <a href="#" className='text-md px-12 py-4 font-otterco bg-myBlack text-myWhite rounded-full border-myBg border-2 shadow-lg' >Resume</a>
-                <a href="#" className='text-md px-12 py-4 font-otterco bg-myWhite text-myBlack rounded-full border-myBg border-2 shadow-lg' >Resume</a>
+                <a href="#"
+                    target="_blank"
+                    className='text-md px-12 py-4 font-otterco bg-myBlack text-myWhite rounded-full border-myBg border-2 shadow-lg' >LinkedIn</a>
+                <a href="#"
+                    target="_blank" className='text-md px-12 py-4 font-otterco bg-myWhite text-myBlack rounded-full border-myBg border-2 shadow-lg' >Whatsapp</a>
             </div>
             <hr className='w-full h-[1px] bg-myBlack' />
             <footer className='flex flex-col md:flex-row items-center justify-between w-full'>
                 <p className='text-xs font-otterco'> &copy; {currentYear} All rights reserved.</p>
                 <ul className='flex items-center justify-end gap-2'>
                     <li>
-                        <a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 text-myBlack hover:text-myWhite transition">
+                        <a href="https://www.instagram.com/kamal_deep_131/" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 text-myBlack ">
                             <FaInstagram className="w-4 h-4" />
                             <span className='font-otterco font-normal text-xs' >Instagram</span>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 text-myBlack hover:text-myWhite transition">
+                        <a href="https://www.linkedin.com/in/kamaldeep2004/" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 text-myBlack ">
                             <FaLinkedinIn className="w-4 h-4" />
                             <span className='font-otterco font-normal text-xs' >LinkedIn</span>
                         </a>
                     </li>
                     <li>
-                        <a href="mailto:your-email@example.com" className="flex items-center space-x-2 text-myBlack hover:text-myWhite transition">
+                        <a href="mailto:email2kamaldeep@gmail.com" className="flex items-center space-x-2 text-myBlack ">
                             <FaEnvelope className="w-4 h-4" />
                             <span className='font-otterco font-normal text-xs'>Email</span>
                         </a>

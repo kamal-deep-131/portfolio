@@ -13,11 +13,13 @@ const ProjectCard = ({ project }) => {
                 <div className="flex w-full items-center justify-start gap-3 flex-wrap text-sm">
                     <a
                         href={demoLink}
+                        target="_blank"
                         className="text-md px-12 py-4 font-otterco bg-myBlack text-myWhite rounded-full border-myBg border-[1px] ">
                         Demo
                     </a>
                     <a
                         href={githubLink}
+                        target="_blank"
                         className="text-md px-12 py-4 font-otterco bg-myWhite text-myBlack rounded-full border-myBg border-2 ">
                         Code
                     </a>
