@@ -5,13 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    colors: {
-      myBg: "#f6f5f4",
-      myWhite: "#fffffe",
-      myBlack: "#242424",
-    },
-    extend: {
 
+    extend: {
+      colors: {
+        myBg: "#f6f5f4",
+        myWhite: "#fffffe",
+        myBlack: "#242424",
+      },
       fontFamily: {
         otterco: ['OttercoDisplay', 'sans-serif'],
       },

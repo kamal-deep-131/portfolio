@@ -1,26 +1,26 @@
 import React from 'react'
 import { FaInstagram, FaLinkedinIn, FaEnvelope } from 'react-icons/fa';
-
+import { Element } from 'react-scroll';
 
 const Contact = () => {
     const currentYear = new Date().getFullYear();
 
     return (
-        <div className='p-2 sm:p-4 md:p-6 lg:p-8 bg-myWhite grid place-items-center gap-4 md:gap-6 rounded-t-3xl '>
+        <Element name='contact' className='p-2 sm:p-4 md:p-6 lg:p-8 bg-myWhite grid place-items-center gap-4 md:gap-6 rounded-t-3xl '>
             <div>
                 <img src="/images/handshake.svg" alt="handshake" width={150}
-                    className='rounded-full bg-myBg p-4' />
+                    className='rounded-full bg-myBg p-4 shadow-lg' />
             </div>
             <h1 className='text-myBlack text-4xl md:text-5xl text-center font-semibold '>
                 Feel free to contact me <br />
                 about your project
             </h1>
-            <div className='pt-6 flex w-full items-center justify-center gap flex-wrap'>
+            <div className='pt-6 flex w-full items-center justify-center gap-4 flex-wrap'>
                 <a href="#" className='text-md px-12 py-4 font-otterco bg-myBlack text-myWhite rounded-full border-myBg border-2 shadow-lg' >Resume</a>
                 <a href="#" className='text-md px-12 py-4 font-otterco bg-myWhite text-myBlack rounded-full border-myBg border-2 shadow-lg' >Resume</a>
             </div>
             <hr className='w-full h-[1px] bg-myBlack' />
-            <div className='flex flex-col md:flex-row items-center justify-between w-full'>
+            <footer className='flex flex-col md:flex-row items-center justify-between w-full'>
                 <p className='text-xs font-otterco'> &copy; {currentYear} All rights reserved.</p>
                 <ul className='flex items-center justify-end gap-2'>
                     <li>
@@ -42,8 +42,8 @@ const Contact = () => {
                         </a>
                     </li>
                 </ul>
-            </div>
-        </div>
+            </footer>
+        </Element>
     )
 }
 
