@@ -16,10 +16,10 @@ const Contact = () => {
                 about your project
             </h1>
             <div className='pt-6 flex w-full items-center justify-center gap-4 flex-wrap'>
-                <a href="#"
+                <a href="https://www.linkedin.com/in/kamaldeep2004/"
                     target="_blank"
                     className='text-md px-12 py-4 font-otterco bg-myBlack text-myWhite rounded-full border-myBg border-2 shadow-lg' >LinkedIn</a>
-                <a href="#"
+                <a href="https://wa.me/9817526073?text=Hello%2C%20I%20would%20like%20to%20get%20in%20touch%20with%20you!"
                     target="_blank" className='text-md px-12 py-4 font-otterco bg-myWhite text-myBlack rounded-full border-myBg border-2 shadow-lg' >Whatsapp</a>
             </div>
             <hr className='w-full h-[1px] bg-myBlack' />
