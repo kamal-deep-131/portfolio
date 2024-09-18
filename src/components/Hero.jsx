@@ -16,7 +16,7 @@ const Hero = () => {
                 </h1>
             </div>
             <div className='py-6'>
-                <a href="#" className='text-md px-12 py-4 font-otterco shadow-lg bg-myBlack text-myWhite rounded-full' >Resume</a>
+                <a download='kamal-resume.pdf' href="/Kamal-resume.pdf" className='text-md px-12 py-4 font-otterco shadow-lg bg-myBlack text-myWhite rounded-full' >Resume</a>
             </div>
         </Element>
     )
