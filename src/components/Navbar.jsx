@@ -27,7 +27,7 @@ const Navbar = () => {
 
     return (
         <header className="fixed w-full bg-myWhite text-myBlack shadow-md font-otterco z-10">
-            <div className=" mx-auto flex justify-between items-center py-2 px-8 md:px-12">
+            <div className=" mx-auto flex justify-between items-center py-4 px-6 md:px-12">
                 <Link to={"home"} smooth={true}
                     duration={500} className="text-xl font-bold text-myBlack z-10 cursor-pointer">
                     <img src="/images/logo.webp" width={35} alt="logo" className='rounded-full border-2 border-myWhite shadow-lg' />
@@ -40,25 +40,25 @@ const Navbar = () => {
                         <Link to={"home"}
                             smooth={true}
                             duration={500}
-                            className="text-base text-myBlack cursor-pointer" onClick={closeMenu}>Home</Link>
+                            className="text-lg text-myBlack cursor-pointer" onClick={closeMenu}>Home</Link>
                     </li>
                     <li>
                         <Link to={"projects"}
                             smooth={true}
                             duration={500}
-                            className="text-base text-myBlack cursor-pointer" onClick={closeMenu}>Projects</Link>
+                            className="text-lg text-myBlack cursor-pointer" onClick={closeMenu}>Projects</Link>
                     </li>
                     <li>
                         <Link to={"skills"}
                             smooth={true}
                             duration={500}
-                            className="text-base text-myBlack cursor-pointer" onClick={closeMenu}>Skills</Link>
+                            className="text-lg text-myBlack cursor-pointer" onClick={closeMenu}>Skills</Link>
                     </li>
                     <li>
                         <Link to={"contact"}
                             smooth={true}
                             duration={500}
-                            className="text-base cursor-pointer text-myBlack" onClick={closeMenu}>Contact Me</Link>
+                            className="text-lg cursor-pointer text-myBlack" onClick={closeMenu}>Contact Me</Link>
                     </li>
                 </ul>
             </div>

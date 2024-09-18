@@ -6,7 +6,7 @@ import { Element } from 'react-scroll'
 const Skills = () => {
     return (
         <Element name='skills' className='p-2 sm:p-4 md:p-6 lg:p-8 bg-myBg grid place-items-center gap-4 md:gap-6 rounded-t-3xl '>
-            <h1 className='text-myBlack text-4xl md:text-4xl text-center font-semibold py-4 md:py-6'>
+            <h1 className='text-myBlack text-2xl md:text-4xl text-center font-semibold py-4 md:py-6'>
                 My Skills
             </h1>
 
