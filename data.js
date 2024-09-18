@@ -2,18 +2,18 @@ import { FaCode, FaServer, FaGithub, FaComments, FaUserTie } from 'react-icons/f
 
 export const projectData = [
     {
-        name: "IntelliKam - AI Chatbot",
-        description: "Developed a React.js powered chatbot using the Gemini API for dynamic interactions. Managed state with Context API for streamlined data flow. Implemented mobile-first responsive styling & dark mode toggle button with Tailwind CSS.",
-        img: "https://kamaldeep.vercel.app/assets/images/intellikam.png",
-        demoLink: "https://intelli-kam.vercel.app/",
-        githubLink: "https://github.com/kamal-deep-131/intelliKam"
+        name: "Bright Side - An Idea Sharing Platform",
+        description: "Bright Side is a dynamic MERN stack application offering a robust platform for idea sharing. It features JWT authentication, secure password hashing with bcrypt, and a user-friendly interface for seamless idea management and interaction.",
+        img: "/images/bright-side.png",
+        demoLink: "https://bright-side.vercel.app/",
+        githubLink: "https://github.com/kamal-deep-131/mern"
     },
     {
-        name: "IntelliKam - AI Chatbot",
-        description: "Developed a React.js powered chatbot using the Gemini API for dynamic interactions. Managed state with Context API for streamlined data flow. Implemented mobile-first responsive styling & dark mode toggle button with Tailwind CSS.",
-        img: "https://kamaldeep.vercel.app/assets/images/intellikam.png",
-        demoLink: "https://intelli-kam.vercel.app/",
-        githubLink: "https://github.com/kamal-deep-131/intelliKam"
+        name: "Beehome - A Real Estate Portal",
+        description: "Behome is a sleek React and Firebase app featuring beautiful UI with Tailwind CSS. It supports email/password and Google authentication, password management, and profile handling, showcasing efficient state management and real-time data fetching.",
+        img: "/images/beehome.png",
+        demoLink: "https://beehome-131.vercel.app/",
+        githubLink: "https://github.com/kamal-deep-131/beehome"
     }
 ]
 
